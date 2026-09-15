@@ -10,6 +10,11 @@ namespace Eloquage\Beacon;
  */
 final class Beacon
 {
+    public static function collection(int $dimension): Collection
+    {
+        return new Collection($dimension);
+    }
+
     public function name(): string
     {
         return 'beacon';
