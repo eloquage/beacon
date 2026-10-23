@@ -1,5 +1,7 @@
 # eloquage/beacon
 
+<p align="center"><img src="art/banner.png" alt="beacon package banner" width="100%"></p>
+
 Small, framework-agnostic semantic search for PHP. Beacon stores embeddings in
 an isolated in-memory collection and returns exact cosine top-k results with
 optional scalar metadata filters.
